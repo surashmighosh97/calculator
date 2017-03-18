@@ -1,36 +1,60 @@
 <html>
 <head>
-<title> Day 2 work </title>
-<style type="text/css">
-html{
-background-color:cyan;
-font-family:  'Lato', sans-serif;
+	<title>calculator</title>
+	<style type="text/css">
 
-}
-.info-item{
-	color:black;
-}
-#main{
-	text-align:center;
-	padding:20px;
-	background-color:pink;
+
+
+
+td{
+	width: 50px;
+	height: 50px;
+	border: 2px solid black;
+	text-align: center;
+	font-weight: 900;
 }
 
 
-</style>
-
+	</style>
 </head>
 <body>
-<div id="main">
-My main work
-</div>
-<div id="my info">
-<ul>
-<li><span class ="info-item"> Roll no.</span>  CSE/15/063</li><br>
-<li><span class-"info-item">Email id:</span>surashmighosh97@gmail.com</li><br>
-<li><span>My portfolio:</span><a href="http://github.com/surashmighosh97">Github profile</a></li>
+	<div id="submit" style="width:150px;height:50px;border:2px solid black;text-align:center">
+Result here
+	</div>
+<table>
+<tr>
 
-</ul>
-</div>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+    <tr>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+</tr>
+    <tr> 
+
+<td>7</td>
+<td>8</td>
+<td>9</td>
+
+</tr>
+<tr>
+<td>+</td>
+<td>-</td>
+<td>*</td>
+</tr>
+
+
+</table>
+<div id="submit" style="width:150px;height:50px;border:2px solid black;text-align:center">=</div>
+<script type="text/javascript">
+var resultDiv=document.getElementById("submit")
+console.log(resultDiv)
+resultDiv.innerHTML="Hello Baby"
+
+</script>
+
 </body>
 </html>
